@@ -1,0 +1,10 @@
+﻿fastapi
+uvicorn[standard]
+python-multipart
+pillow
+requests
+openai>=1.0.0
+python-dotenv
+# Optional
+torch
+torchvision
