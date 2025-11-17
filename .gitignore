@@ -1,0 +1,35 @@
+# Root .gitignore
+
+# Python cache and env
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+*.sqlite3
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Ignore virtualenv inside FoodImageChatAPI
+FoodImageChatAPI/.venv/
+FoodImageChatAPI/venv/
+
+# Byte-compiled / distribution
+build/
+dist/
+*.egg-info/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log

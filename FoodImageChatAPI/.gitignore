@@ -1,0 +1,27 @@
+# Python build/cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment & secrets
+.env
+*.env
+.env.*
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs / temp
+install_log.txt
+*.log
+
+# Local uploads or temp data (add patterns if you store images)
+/tmp/
