@@ -1,0 +1,143 @@
+.fa-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.fa-header h1 {
+  font-size: 2.2rem;
+  margin: 0 0 0.5rem;
+}
+.fa-header p {
+  color: #666;
+  margin: 0 0 1.25rem;
+}
+.fa-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+.fa-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+  padding: 1.25rem;
+}
+.fa-card h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.2rem;
+}
+.fa-upload .fa-file-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px dashed #d6d6d6;
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  color: #444;
+  background: #fafafa;
+}
+.fa-upload .fa-file-label input {
+  display: none;
+}
+.fa-preview {
+  margin-top: 0.75rem;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #eee;
+}
+.fa-preview img {
+  display: block;
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+.fa-analyze-btn {
+  margin-top: 0.9rem;
+  background: linear-gradient(135deg, #ff7a7a, #ff6a9a);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 0.7rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.fa-analyze-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.fa-error {
+  margin-top: 0.6rem;
+  color: #d64242;
+  font-size: 0.9rem;
+}
+.fa-result .fa-placeholder {
+  color: #888;
+}
+.fa-result-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.fa-result-main {
+  display: flex;
+  gap: 1rem;
+  align-items: stretch;
+}
+.fa-kcal-box {
+  flex: 0 0 220px;
+  background: linear-gradient(135deg, #ff8b8b, #ff7fb3);
+  color: #fff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.fa-kcal-value {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+}
+.fa-kcal-label {
+  margin-top: 0.4rem;
+  opacity: 0.9;
+}
+.fa-meta {
+  flex: 1;
+  background: #f9f9fb;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.6rem;
+}
+.fa-meta-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.fa-meta-key {
+  color: #666;
+}
+.fa-meta-val {
+  font-weight: 600;
+}
+.fa-notes {
+  background: #fff7fb;
+  border: 1px solid #ffd9ea;
+  padding: 0.9rem;
+  border-radius: 12px;
+  color: #444;
+}
+
+@media (max-width: 900px) {
+  .fa-grid {
+    grid-template-columns: 1fr;
+  }
+  .fa-kcal-box {
+    flex: 0 0 auto;
+  }
+}
